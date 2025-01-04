@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="text-center py-3 bg-light">
+    <h1>Login</h1>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-3 col-12 bg-light py-3">
+        <h3 class="text-center">Menu</h3>
+        <ul class="nav flex-column text-center">
+            <li class="nav-item"><a href="index.html" class="nav-link">Informasi</a></li>
+            <li class="nav-item"><a href="beranda.html" class="nav-link">Beranda</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link active">Login</a></li>
+            <li class="nav-item"><a href="transaction.html" class="nav-link">Transaksi</a></li>
+            <li class="nav-item"><a href="profile.html" class="nav-link">Profil</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <h1>Silahkan Login untuk menggunakan aplikasi</h1>
+        
+        <div class="login-box">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password">
+                    <button id="loginBtn">Login</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="links">
+            <a href="" class="forgot-password">Lupa Password</a>
+            <div class="register-text">
+                <span>Belum punya Akun? </span>
+                <a href="" class="register-link">Daftar</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
